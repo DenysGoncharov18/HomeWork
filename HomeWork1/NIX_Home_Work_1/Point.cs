@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NIX_Home_Work_1
 {
-    abstract class dinamic
+    abstract class Point
     {
         public int x, y;
         /// <summary>

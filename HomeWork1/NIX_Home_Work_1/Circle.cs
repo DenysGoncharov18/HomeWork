@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NIX_Home_Work_1
 {
-    class Circle : dinamic
+    class Circle : Point
     {
         int radius;
         public Circle()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NIX_Home_Work_1
 {
-    class Rectangle : dinamic
+    class Rectangle : Point
     {
         public int deltaX, deltaY;
         public Rectangle()

@@ -8,8 +8,8 @@ namespace NIX_Home_Work_1
 {
     class Iamge : Rectangle
     {
-        dinamic figure;
-        public Iamge(dinamic figure)
+        Point figure;
+        public Iamge(Point figure)
         {
             figure = this.figure;
         }
