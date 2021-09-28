@@ -25,7 +25,10 @@ namespace NIX_Home_Work_1
             c.Shift(5, 5);
             Console.WriteLine(new string("*"), 20);
 
-            Iamge i = new Iamge(r);
+            Iamge i = new Iamge();
+            i.figure.Add(r);
+            i.figure.Add(t);
+            i.figure.Add(c);
             i.Print();
             i.Shift(10, 10);
             i.Scope(5);

@@ -8,22 +8,34 @@ namespace NIX_Home_Work_1
 {
     class Iamge : Rectangle
     {
-        Point figure;
-        public Iamge(Point figure)
+        public List<Point> figure  {set; get;}
+        public Iamge()
         {
             figure = this.figure;
         }
         public override void Print()
         {
-            figure.Print();
+            foreach (var item in figure)
+            {
+                item.Print();
+            }
+            
         }
         public override void Scope(int scopeRatio)
         {
-            figure.Scope(scopeRatio);
+            foreach (var item in figure)
+            {
+                item.Scope(scopeRatio);
+            }
+           
         }
         public override void Shift(int shiftX, int shiftY)
         {
-            figure.Shift(shiftX, shiftY);
+            foreach (var item in figure)
+            {
+                item.Shift(shiftX, shiftY);
+            }
+           
         }
     }
 }
