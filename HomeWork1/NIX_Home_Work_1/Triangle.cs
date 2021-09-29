@@ -40,8 +40,10 @@ namespace NIX_Home_Work_1
 
         public override void Shift(int shiftX, int shiftY)
         {
+            x += shiftX;
+            y += shiftY;
             Console.WriteLine($"Scoped Triangle will have coners in the next points: " +
-                $"A ({x + shiftX}:{y + shiftY}) B({(x + deltaX + shiftX)}:{y + shiftY}) C({(x + gammaX + shiftX)}:{(y + gammaY + shiftY) })");
+                $"A ({x}:{y}) B({x + deltaX}:{y + deltaY}) C({x + gammaX}:{y + gammaY})");
         }
 
     }

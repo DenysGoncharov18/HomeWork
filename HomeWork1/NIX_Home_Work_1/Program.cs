@@ -26,9 +26,9 @@ namespace NIX_Home_Work_1
             Console.WriteLine(new string("*"), 20);
 
             Iamge i = new Iamge();
-            i.figure.Add(r);
-            i.figure.Add(t);
-            i.figure.Add(c);
+            i.Figure.Add(r);
+            i.Figure.Add(t);
+            i.Figure.Add(c);
             i.Print();
             i.Shift(10, 10);
             i.Scope(5);

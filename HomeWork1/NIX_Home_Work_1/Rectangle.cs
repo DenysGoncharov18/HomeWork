@@ -36,8 +36,10 @@ namespace NIX_Home_Work_1
 
         public override void Shift( int shiftX, int shiftY)
         {
+            x += shiftX;
+            y += shiftY;
             Console.WriteLine($"Scoped Rectangle will have coners in the next points: " +
-                $"A ({x+ shiftX}:{y+ shiftY}) B({(x + deltaX+ shiftX)}:{y+shiftY}) C({(x + deltaX+ shiftX)}:{(y + deltaY+ shiftY) }) D({x+ shiftX}:{(y + deltaY+ shiftY)})");
+                $"A ({x}:{y}) B({x + deltaX}:{y}) C({x + deltaX}:{y + deltaY}) D({x}:{y + deltaY})");
         }
     }
 }

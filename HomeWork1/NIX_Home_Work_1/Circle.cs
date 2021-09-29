@@ -32,7 +32,9 @@ namespace NIX_Home_Work_1
 
         public override void Shift( int shiftX, int shiftY)
         {
-            Console.WriteLine($"Circle with center in point {x+shiftX}:{y+shiftY} and radius {radius}");
+            x += shiftX;
+            y += shiftY;
+            Console.WriteLine($"Circle with center in point {x}:{y} and radius {radius}");
         }
 
     }

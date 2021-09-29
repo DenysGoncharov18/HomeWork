@@ -8,11 +8,8 @@ namespace NIX_Home_Work_1
 {
     class Iamge : Rectangle
     {
-        public List<Point> figure  {set; get;}
-        public Iamge()
-        {
-            figure = this.figure;
-        }
+        List<Point> figure = new List<Point>();
+        public List<Point> Figure  {set; get;}
         public override void Print()
         {
             foreach (var item in figure)
